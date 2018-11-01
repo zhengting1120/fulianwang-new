@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container {
+    height:50px;
+    background:#ddd;
+    display: flex;
+    line-height: 50px;
+    padding: 5px 50px;
+    position:relative;
+}
+li:nth-child(2) {
+    /*图片导不进来？？？？？？？*/
+    /*list-style-image:url("img/header/2weima.png");*/
+}
+li:nth-child(3) {
+    /*图片导不进来？？？？？？？*/
+    /*list-style-image:url("img/header/phone.png");*/
+}
+input{
+    width:350px;
+    height:41px;
+    border:2px solid #008cd6;
+    vertical-align: bottom;
+}
+.btn_search{
+    width:120px;
+    height: 41px;
+    background:#008cd6;
+    color:#fff;
+    border: 0;
+}
+#search{
+    position: absolute;
+    left:750px;
+    top:80px;
+}
+a{
+    color: #008cd6;
+    font-size: 0.8rem;
+}
+a:hover{
+    color: #008cd6;
+    text-decoration: none;
+}
+header .row1{
+    height: 41px;
+    line-height: 41px;
+    padding-left:12rem;
+    padding-right:12rem;
+    background: #eee;
+}
+header .row2{
+    padding-left:12rem;
+    padding-right:12rem;
+}
+header .row3{
+    padding-left:12rem;
+    padding-right:12rem;
+    line-height: 40px;
+    /*vertical-align: middle;*/
+}
+header .row3 ul li a{
+    color: #000000;
+    font-weight: bold;
+    padding-left:1rem;
+}
+header .row3 ul li a:hover{
+    color: #008cd6;
+}
+.btn_my{
+    width: 97px;
+    height: 41px;
+    background: #eee;
+    color: #777777;
+    font-size: 0.8rem;
+    border:0;
+    outline: none;
+}
+.btn_my:hover{
+    background: #fff;
+}
+. my_drop{
+    width:97px;
+    text-align: center;
+}
+/*三角的位置？？？？？？？？？*/
+.xsj{
+    background: url("img/header/fl_top_icon.png") no-repeat;
+    /*background-position: 76px -404px;*/
+    position: absolute;
+    right: 0;
+    width: 25px;
+    height: 40px;
+    top: 0;
+    background-position: 7px -404px;
+    border: 2px solid darkblue;
+}
+.btn_product{
+    width:190px;
+    line-height: 40px;
+    background: url("img/header/fl_top_icon.png")  no-repeat 9px -267px #008cd6;
+    color:#fff;
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+}
